@@ -1,0 +1,10 @@
+name: demoservice-deploy
+command:
+  - java
+  - -cp
+  - /app/resources:/app/classes:/app/libs/*
+  - es.codeurjc.k8sdevtools.demoservice.K8sdevtoolsApplication
+mountpath: /app/classes
+subpath: target/classes
+forward:
+  - 8080:8080
