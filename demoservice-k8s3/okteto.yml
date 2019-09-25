@@ -1,4 +1,4 @@
-name: demoservice-deploy
+name: demoservice-dply
 command:
   - java
   - -cp

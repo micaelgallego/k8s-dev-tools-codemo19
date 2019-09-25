@@ -29,5 +29,6 @@ spec:
         app: vote
     spec:
       containers:
-      - image: pchico83/alumnos:vote
+      - image: micaelgallego/vote:latest
+        imagePullPolicy: Always
         name: vote

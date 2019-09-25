@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demoservice-deploy
+  name: demoservice-dply
 spec:
   strategy:
     type: Recreate

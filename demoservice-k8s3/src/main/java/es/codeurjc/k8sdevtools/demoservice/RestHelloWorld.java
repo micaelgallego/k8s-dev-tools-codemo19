@@ -8,7 +8,7 @@ public class RestHelloWorld {
 	
 	@GetMapping("/")
 	public String sayHello() {
-		return "Hello world REST with HotReload";
+		return "Hello world REST with HotReload in Codemotion";
 	}
 
 }
